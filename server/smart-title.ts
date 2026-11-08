@@ -83,6 +83,9 @@ async function generateAndRename(
   }
 
   await renameAgent(agentId, title);
+  if (snapshot.workspaceId) {
+    await paseo.workspaces.ref(snapshot.workspaceId).setTitle(title);
+  }
   return { title };
 }
 
