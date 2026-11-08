@@ -1,0 +1,8 @@
+{
+  "id": "paseo-smart-title",
+  "name": "智能会话标题",
+  "description": "根据最近的会话上下文，一键生成并更新更贴切的标题。",
+  "requirements": {
+    "paseo": ">=0.15.3"
+  }
+}
